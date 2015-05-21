@@ -3,7 +3,7 @@ layout: post
 title: "英文版 Safari/Chrome 里剪藏如何登陆印象笔记"
 date: 2015-05-22 17:23:21
 category: 效率 技能
-tags: 印象笔记 Evernote 剪藏 WebClipper
+tags: Evernote  WebClipper
 ---
 
 
@@ -39,11 +39,7 @@ Evernote web clipper 在国内的名字叫剪藏，是一款浏览器扩展插�
 
 ![pic3](http://7xj6ej.com1.z0.glb.clouddn.com/3.png)
 
-4.再点击 options ，在页面中右键选择 inspect element（做前端开发的都知道这个吧），接着command＋F 查找`developerContainer`，结果如下
-
-![pic4](http://7xj6ej.com1.z0.glb.clouddn.com/4.png)
-
-我们看到这个 `div` 下面包含很多`div`（是一些开发者功能选项，就像很多程序一样，这些功能都被隐藏了，平时看不到），发现后面有一个 `style =“display:none;”`这是前端里面经常看到的一个样式语句，作用就是隐藏下面这个表里面的内容。
+4.再点击 options ，在页面中右键选择 inspect element（做前端开发的都知道这个吧），接着command＋F 查找`developerContainer`，我们看到这个 `div` 下面包含很多`div`（是一些开发者功能选项，就像很多程序一样，这些功能都被隐藏了，平时看不到），发现后面有一个 `style =“display:none;”`这是前端里面经常看到的一个样式语句，作用就是隐藏下面这个表里面的内容。
 
 既然被隐藏了，那我们把它显示出来看看到底是什么东西？
 
@@ -52,13 +48,7 @@ Evernote web clipper 在国内的名字叫剪藏，是一款浏览器扩展插�
 ![pic5](http://7xj6ej.com1.z0.glb.clouddn.com/5.png)
 
 滚动页面，就会发现，多出了一个 developer options，这就是之前那些`<div>`里面的内容。好了，我们真正关心的只是其中一项叫：simulate simplified chinese 的复选框。选中它后面那个复选框，浏览器里面的内容发生变化了（结果很异常，不要害怕）
-
-![pic6](http://7xj6ej.com1.z0.glb.clouddn.com/6.png)
-
-此时，淡定的 `command+Q` 退出 Safari 就可以了，然后再重启 Safari，点击 Web clipper 你将看到下面这样的现象。
-
-![pic7](http://7xj6ej.com1.z0.glb.clouddn.com/7.jpeg)
-
+此时，淡定的 `command+Q` 退出 Safari 就可以了，然后再重启 Safari，点击 Web clipper 
 看到了吗？里面多出了一个切换到印象笔记  的登录入口。自此，算是大功告成。
 
 
