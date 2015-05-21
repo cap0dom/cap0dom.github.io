@@ -1,7 +1,7 @@
 #markdown: rdiscount
 markdown: kramdown
 permalink: /:year/:month/:day/:title.html
-#url: http://www.stbioinf.com
+url: http://www.ap0dom.com
 name: "blog | cap0dom"
 author: "cap0dom"
 highlighter: pygments
