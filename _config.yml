@@ -1,34 +1,10 @@
-# Site settings
-title: blog | cap0dom
-email: yaoxlnorth@gmail.com
-description: "THINK DIFFERENT"
+#markdown: rdiscount
+markdown: kramdown
 permalink: /:year/:month/:day/:title.html
-baseurl: ""
-url: http://www.cap0dom.com""
-atom-baseurl: "http://www.cap0dom.com"
-author: "cap0dom"
-
-# Build settings
-# permalink: date
-
+url: http://www.stbioinf.com
+name: "STbioinf"
+author: "YellowTree"
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: [fenced_code_blocks,no_intra_emphasis,strikethrough,no_intra_emphasis,autolink,tables]
-
-navigations:
-  - title: About
-    class: fa fa-list-ul
-    href: /about/
-  - title: Archive
-    class: fa fa-tags
-    href: /archive/
-  - title: Categories
-    class: fa fa-user
-    href: /categories/
-  - title: Tags
-    class: fa fa-film
-    href: /tags/
-  - title: Rss
-    class: fa fa-rss
-    href: /atom.xml
+safe: true
+paginate: 16
+auto: true

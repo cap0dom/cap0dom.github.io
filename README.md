@@ -1,1 +1,2 @@
-个人blog，主题使用的hackerxu的
+##www.stbioinf.com
+Personal website for blog and techniques.
