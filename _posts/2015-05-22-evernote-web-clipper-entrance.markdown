@@ -2,7 +2,7 @@
 layout: post
 title: "英文版 Safari/Chrome 里剪藏如何登陆印象笔记"
 date: 2015-05-22 17:23:21
-categories: [效率,技能]
+category: [效率,技能]
 tags: 印象笔记 Evernote 剪藏 WebClipper
 ---
 

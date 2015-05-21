@@ -1,11 +1,11 @@
 # Site settings
-title: Cap0dom's Blog
+title: blog | cap0dom
 email: yaoxlnorth@gmail.com
 description: "THINK DIFFERENT"
 permalink: /:year/:month/:day/:title.html
 baseurl: ""
-url: ""
-atom-baseurl: ""
+url: http://www.cap0dom.com""
+atom-baseurl: "http://www.cap0dom.com"
 author: "cap0dom"
 
 # Build settings
