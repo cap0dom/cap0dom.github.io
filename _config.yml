@@ -1,9 +1,9 @@
 #markdown: rdiscount
 markdown: kramdown
 permalink: /:year/:month/:day/:title.html
-url: http://www.stbioinf.com
-name: "STbioinf"
-author: "YellowTree"
+#url: http://www.stbioinf.com
+name: "blog | cap0dom"
+author: "cap0dom"
 highlighter: pygments
 safe: true
 paginate: 16
