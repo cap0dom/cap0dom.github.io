@@ -1,5 +1,5 @@
 
-<<div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'cap0dom';
