@@ -61,7 +61,7 @@ comments: yes
 
 **女票** － 这个算不算....
 
-[To be continued...](http;//www.cap0dom.com/vitae/)
+[To be continued...](http://www.cap0dom.com/vitae/)
 
 <br/>
 
