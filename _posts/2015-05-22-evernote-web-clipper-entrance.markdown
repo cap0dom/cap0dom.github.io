@@ -73,6 +73,7 @@ Chrome 相对来说，比 Safari 更简单，因为你不需要登录就可以�
 重启 Chrome, Done!
 
 <br/>
+
 **SUMMARY**：
 
 1.前面提到，为什么 Safari 必须要先登录，我们也发现 Chrome 不需要登录就可以实现。
@@ -95,4 +96,6 @@ Mac 上面，我个人的主力浏览器是 Safari，Chrome 是辅助浏览器�
 5.没有第5了。
 
 <br/>
+
+
 <p align="right">cap0dom / 2015-05-22</p>
