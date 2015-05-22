@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 留言
+title: Your Words
 comments: yes
 ---
 
-有朋自远方来，不亦乐乎，说出你的建议，留下你的足迹吧。。
+对，就是你...想吐槽是吧，在这里留下你满满的爱！
+-------------------
 
-![Logo](http://blog-fungenomics-com.qiniudn.com/fg.home.guestbook_logo.jpg)
 
