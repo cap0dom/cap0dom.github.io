@@ -59,7 +59,7 @@ comments: yes
 
 **我的小学老师** － 前面已经说过了，不解释。
 
-**女票** － 这个算不算....
+**女票** － 这个算不算...
 
 [To be continued...](http://www.cap0dom.com/vitae/)
 
