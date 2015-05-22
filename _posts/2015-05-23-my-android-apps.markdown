@@ -19,7 +19,7 @@ layout: post
 ##我的android应用集
 
 
-编号|应用名称|描述|价格
+编 号|应用名称|描述|价格
 :---|:------|:------|:----
 1|chrome 浏览器|跨平台的一款浏览器，extensions 多，Google 产品线举足轻重的一款产品|[free](https://play.google.com/store/apps/details?id=com.android.chrome)
 2|gmail|不解释了|[free](https://play.google.com/store/apps/details?id=com.google.android.gm)
