@@ -51,6 +51,7 @@ Evernote web clipper 在国内的名字叫剪藏，是一款浏览器扩展插�
 此时，淡定的 `command+Q` 退出 Safari 就可以了，然后再重启 Safari，点击 Web clipper 
 看到了吗？里面多出了一个切换到印象笔记  的登录入口。自此，算是大功告成。
 
+<br/>
 
 ##Chrome解决办法：
 
@@ -93,3 +94,5 @@ Mac 上面，我个人的主力浏览器是 Safari，Chrome 是辅助浏览器�
 
 5.没有第5了。
 
+<br/>
+<p align="right">cap0dom / 2015-05-22</p>
