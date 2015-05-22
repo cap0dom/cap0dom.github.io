@@ -13,7 +13,26 @@
     <script type="text/javascript" src="/media/js/backtop.js"></script>   <!-- Back Top 2/3 -->
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
   </head>
+<style type="text/css">
+#id_footer
+{
+height:40px;
+box-sizing:border-box;
+position:absolute;
+bottom:0;
+}
 
+body
+{
+height:100%;
+}
+
+#id_wrapper
+{
+min-height:100%;
+position:relative;
+}
+</style>
   <script type="text/javascript">
     function setTimeSpan(){
     	var date = new Date();
@@ -60,11 +79,10 @@
         </article>
       </div>
 
-      <footer>
-		{% assign first_post = site.posts | last %}
+      <footer id="id_footer">
+	{% assign first_post = site.posts | last %}
 
-        <p><small>Powered by <a href="http://jekyllrb.com">Jekyll</a> & <a href="http://github.com">GitHub</a> | Copyright &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} by <a href="/about/">{{ site.author }}</a> | <span class="label label-info" id="timeSpan"></span></small></p>
-
+        <p style="text-align:center;"><small>Powered by <a href="http://jekyllrb.com">Jekyll</a> & <a href="http://github.com">GitHub</a> | Copyright &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} by <a href="/about/">{{ site.author }}</a> | <span class="label label-info" id="timeSpan"></span></small></p>
       </footer>
     </div>
 
