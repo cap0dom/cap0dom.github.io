@@ -10,7 +10,7 @@ layout: post
 
 转投 **android** 差不多快半年了，我使用的一台 nexus5，一直 android 原生 ROM 走过来，总体感觉还是蛮不错的。2010年的时候，第一次使用智能手机时，android 还处在 V2.X 时代，到现在的 android L，马上 [Google I/O 2015](https://events.google.com/io2015/) 又要来到 android M，总是惊喜不断。
 
-感觉跑题了，现在回到主题。不管你是什么用的什么 ROM 或者什么 OS ，能否捆绑你继续使用下去的一个很重的因素就是 OS/ROM 对应的生态环境(apps)能否满足你的日常使用（工作/生活）。下面列举我的日常使用到的 android apps。
+感觉跑题了，现在回到主题。不管你是什么 ROM 或者什么 OS ，能否使你继续使用下去的一个很重的因素就是 OS/ROM 对应的生态环境(apps)能否满足你的日常使用（工作/生活）。下面列举我的日常使用到的 android apps。
 
 **PS: 请先科学上网**
 
@@ -64,11 +64,11 @@ layout: post
 41|Flickr|图片分享应用，个人觉得很酷，很炫，需要素材的可以到这里来找找，现在已被 Yahoo 带走|[free](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr)
 
 
-
+<br/>
 
 **To be continued...**
 
 
-<p style="text-align:right">cap0dom  2015-05-23</p>
+<p style="text-align:right">cap0dom / 2015-05-23</p>
 
 <br/>
