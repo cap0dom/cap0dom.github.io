@@ -40,11 +40,11 @@ date: 2015-05-30
 ![1.pic](http://7xj6ej.com1.z0.glb.clouddn.com/wordword1.png)
 
 2.选择页边距(`Margins`)-页边距中上下左右距离按要求填就是，最下面有一个适用范围(`Apply to:`)选择第3项 整个文档(`Whole document`)
-![pic2](http://7xj6ej.com1.z0.glb.clouddn.com/wordword2.png)
+![pic2](http://7xj6ej.com1.z0.glb.clouddn.com/wordword2.PNG)
 3.选择页面(`Paper`)-页面尺寸(`Paper size`)选择  **A4**， 同样适用于整个文档。
-![pic3](http://7xj6ej.com1.z0.glb.clouddn.com/wordword3.png)
+![pic3](http://7xj6ej.com1.z0.glb.clouddn.com/wordword3.PNG)
 4.布局(`Layout`)－页眉和页脚(`Headers and footers`)，选中奇偶不同(`Different odd and even`)，同时设定页眉页脚到边界的距离。
-![pic4](http://7xj6ej.com1.z0.glb.clouddn.com/wordword4.png)
+![pic4](http://7xj6ej.com1.z0.glb.clouddn.com/wordword4.PNG)
 
 **PS** 这里的页眉页脚设置，一定要根据自己学校的要求来选择和填写。比如 XXX 学校要求奇数页的页眉为本页所在的*章标题*，偶数页的页眉为固定的*XXX 大学本科学士学位论文*
 
@@ -54,7 +54,7 @@ date: 2015-05-30
 1.字体，根据`XXX 学校OOO管理办法` 正文主要用**宋体**、字体大小**小四号**，蓑衣，就全选所有文字，把所有文字设置为 **宋体** 、**小四号**
 
 2.缩进、行间距等设置。同样是工具栏－页面布局（`Page Layout`）－段落(`Paragraph`)－缩进与间距(`Indents and Spacing`)－缩进(`Indentation`)里面特殊值(`Special`)选择**第一行(First line)**，设为**2字符**(XXX 学校规定的)。然后-间距(`Spacing`)中行间距(`Line spacing`)选择**固定值(Exactly)**，设为**20 磅**，其它默认即可，最后，选择设为**默认值(set as default)**。
-![pic5](http://7xj6ej.com1.z0.glb.clouddn.com/wordword5.png)
+![pic5](http://7xj6ej.com1.z0.glb.clouddn.com/wordword5.PNG)
 
 3.把你对应的图片什么的，都全部插在你的文档的对应位置。并根据要求调整页面，比如要求：插图、插表
 与对应的图题和表题要放在一起，不能分页放等等。
@@ -64,7 +64,7 @@ date: 2015-05-30
 ###设置目录
 
 1.工具栏的视图(`View`)-选择大纲视图(`Outline`)，*PS*你也可以将旁边的导航栏(`Navigation Pane`)选中。
-![pic6](http://7xj6ej.com1.z0.glb.clouddn.com/wordword6.png)
+![pic6](http://7xj6ej.com1.z0.glb.clouddn.com/wordword6.PNG)
 
 2.选中每段只显示一行(`show First Line Only`)。找到你需要设置称为目录的文字，光标移动到所在行，然后选择 左上角的等级。比如：我将 `2.4 系统设计原则` 设为2级目录。
 ![pic8](http://7xj6ej.com1.z0.glb.clouddn.com/wordword8.png)
@@ -96,7 +96,7 @@ date: 2015-05-30
 
 2.页眉线。工具栏－设计（工具栏里面第三项和 1 中的设计不一样）－最右边页面边界(`Page Borders`)
 -设置选择自定义；风格选择实线；预览里面只选中最上面那条，即可。
-![pic12](http://7xj6ej.com1.z0.glb.clouddn.com/wordword12.png)
+![pic12](http://7xj6ej.com1.z0.glb.clouddn.com/wordword12.PNG)
 3.页码。工具栏－插入－页码－页面底部，选择居中那一个风格即可。在`设计栏`-页码（左3）－页码格式，里面设置页码起始页。注意保持前后页码的连续，不要在哪儿断了。比如，我的第3章从第9页开始，我就在里面设置9，当然这毫无疑问，我设置为9是根据前面第2章结束那一页是第8页。
 ![pic13](http://7xj6ej.com1.z0.glb.clouddn.com/wordword13.png)
 
