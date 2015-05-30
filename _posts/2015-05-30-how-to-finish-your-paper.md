@@ -1,5 +1,5 @@
 ---
-title: "你怎么排版你的毕业论文的？"
+title: "你的论文怎么排版的？"
 category: 技能
 tag: office
 layout: post
