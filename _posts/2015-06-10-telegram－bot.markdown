@@ -3,13 +3,14 @@ title: "Telegram-bot开发入门教程"
 date: 2015-06-10
 category: lua
 tags: telegram lua
-
 layout: post
 ---
 
 ##前言
 
-`telegram` 这一款来自战斗名族的IM产品，从目前的情况来看确实扛起了俄罗斯人在移动社交领域的大旗，正浩浩荡荡向全世界宣战。在 Google 里面随便搜索 telegram 都会出现很多砖家|报道分析...不知它今后会怎样，但是目前来看，确实称得上一款很不错的通讯工具。更多具体的描述可以点 [这里](https://www.telegram.org)。
+`telegram` 这一款来自战斗名族的IM产品，从目前的情况来看确实扛起了俄罗斯人在移动社交领域的大旗，
+正浩浩荡荡向全世界宣战。在 Google 里面随便搜索 telegram 都会出现很多砖家|报道分析...不知它今后会怎样，
+但是目前来看，确实称得上一款很不错的通讯工具。更多具体的描述可以点 [这里](https://www.telegram.org)。
 
 <br/>
 
@@ -82,6 +83,6 @@ layout: post
 前面说的，都是安装好telegram-bot就直接使用了，并没有做适合个人特殊需求的开发。所以，如果，你想实现更多好玩的功能，就需要动手开发更多的plugin。比如：你可以实现，用手机给机器人发一条`!shutdown now`命令，让电脑关机。具体的实现方法，留着今后有机会再说。
 
 
-<p style="text-align:right">cap0dom / 2015-05-23</p>
+<p style="text-align:right">cap0dom / 2015-06-10</p>
 
 <br/>
