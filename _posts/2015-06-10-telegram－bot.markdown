@@ -37,7 +37,7 @@ layout: post
      ./configure && make
 	
 如果，你遇到:
-- python "...gcc compiler no"这样的安装失败错误，请到 [stackoverflow](http://stackoverflow.com/)，查找错误，解决问题。提示一下：一半是你的xcode developTool 的问题。
+- python "...gcc compiler no"这样的安装失败错误，请到 [stackoverflow](http://stackoverflow.com/)，查找错误，解决问题。提示一下：一般是你的xcode developTool 的问题。
 
 然后，编译。同样在终端里面
 
