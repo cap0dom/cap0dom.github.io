@@ -6,13 +6,10 @@ tags: telegram lua
 layout: post
 ---
 
-##前言
-
 `telegram` 这一款来自战斗名族的IM产品，从目前的情况来看确实扛起了俄罗斯人在移动社交领域的大旗，
 正浩浩荡荡向全世界宣战。在 Google 里面随便搜索 telegram 都会出现很多砖家|报道分析...不知它今后会怎样，
 但是目前来看，确实称得上一款很不错的通讯工具。更多具体的描述可以点 [这里](https://www.telegram.org)。
 
-<br/>
 
 ##Telegram Bot 
 
