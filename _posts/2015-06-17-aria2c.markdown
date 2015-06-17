@@ -1,0 +1,46 @@
+---
+title: 简单配置上手aria2
+layout: post
+tags: unix aria2
+categoty: 效率
+date: 2015-06-17
+---
+
+aria2 是一个非常优秀的下载工具，具备多线程、断点续传能力，而且下载速度也不耐。还有一个非常重要的技能，那就是提升你的 bigger 啦，因为它是通过在 terminal 启动 aria2c服务，然后执行下载任务。
+
+##安装
+
+安装的方式有很多种，最简单的一种方式就是通过 Homebrew 安装。（嗯，它的作者就是那个因为不会换转二叉树被Google绝掉的Max）
+
+	brew install aria2
+
+就这样，一句简单的代码，aria2就安装在你的机器上面了。
+
+##配置
+
+安装完成了，要想执行下载任务，那还需要一个比较麻烦的将需要下载文件的链接转换为 aria2 格式，这个过程也比较复杂，需要一些代码来实现。
+
+显然，这与我们今天的主题“简单”不符合，那么下面推荐一个超级简单的方法。
+
+	git clone https://github.com/ziahamza/webui-Aria2
+
+使用 git 获取这个已经做好的html页面，然后来下载和管理文件。
+在进行下载操作前，请务必完成前面的 **安装** 和 **配置**
+
+##使用方法
+
+首先，启动 aria2 服务
+
+	aria2c --enable-rpc --rpc-listen-all
+
+其实，只需要只一句简单名称可以实现启动服务。如果，你想要实现更多的配置，那就需要田间更多的参数，比如
+
+	touch /Users/pi/Downloads/session.txt && aria2c --enable-rpc --rpc-listen-all --save-session=/Users/pi/Downloads/session.txt --input-file=/Users/pi/Downloads/session.txt -x16 -s16 -k1M --dir=/Users/pi/Downloads
+
+**NOTE:** 其中 pi 是我的用户名，前面 `touch /Users/pi/Downloads/session.txt`  是现实编辑一个 session.txt 用于断点续传；然后 `aria2c --enable-rpc --rpc-listen-all` 是启动 aria2 服务；`save-session=/Users/pi/Downloads/session.txt --input-file=/Users/pi/Downloads/session.txt ` session 路径和配置；`-x16 -s16 -k1M `配置下载线程、连接点数量、最小文件切片大小（可能我翻译得不好，你可以在终端里面直接输入 `aria2c -h` 帮助命令找到这些参数得意思）；最后 `--dir=/Users/pi/Downloads
+` 这是配置下载路径
+
+然后，将前面 clone 下来的文档，选用浏览器方式打开 index.html 就可以到下载管理界面了。接下来在界面中选择 add 需要下载文件的链接就好了。
+
+
+<br/>
