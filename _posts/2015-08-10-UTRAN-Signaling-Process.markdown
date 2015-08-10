@@ -3,6 +3,7 @@ date: 2015-08-10
 title:[连载1] UTRAN 基本信令流程-基本概念和CELL状态
 categories:工作 学习
 tags: 通信 UMTS
+loyout:post
 ---
 
 #开场白
