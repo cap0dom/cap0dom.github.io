@@ -1,9 +1,9 @@
 ---
-layout: post
 date: 2015-08-10
-title: 连载1: UTRAN 基本信令流程-基本概念和CELL状态
-category:工作学习
-tags: 通信 UMTS
+title: UTRAN重点信令流程
+layout: post
+category: 学习
+tags: UTRAN 通信
 ---
 
 #开场白
