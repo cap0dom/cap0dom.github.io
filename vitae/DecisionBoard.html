@@ -1,0 +1,184 @@
+<html><head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="utf-8">
+    <title>Decision Board</title>
+    <meta name="description" content="Sometimes you need a board to help you decide~">
+    <link rel="stylesheet" href="./normalize.css">
+    <script src="./tween.js"></script><style></style>
+</head>
+
+<body>
+    <img src="https://dn-2eyad9yt.qbox.me/09c367f6eeefb2d0b0a7.jpg" width="0" height="0">
+    <style>
+        body {
+            /*background: #dd0404;*/
+            background: #fff;
+        }
+        
+        #board {
+            display: block;
+            width: 100%;
+            max-width: 533px;
+            margin: 20px auto;
+        }
+        
+        #ball {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            background: #dd0404;
+            transform: translate(100px, 100px);
+        }
+        
+        #pop {
+            display: none;
+            background: rgba(0, 0, 0, .8);
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #retry {
+            display: block;
+            background: #dd0404;
+            color: #fff;
+            margin: 10px auto;
+            font-size: 20px;
+            text-align: center;
+            width: 150px;
+            height: 40px;
+            line-height: 40px;
+            text-decoration: none;
+        }
+        
+        #ret {
+            font-size: 80px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 10%;
+            text-align: center;
+        }
+        
+        #qrcode {
+            display: block;
+            margin: 10px auto;
+            width: 300px;
+        }
+        
+        p {
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            margin: 20px;
+        }
+    </style>
+    <img src="./bg.png" id="board">
+    <div id="ball" style="transform: translate(633px, 48.21052631578947px); display: block; left: 222.08333333333334px; top: 436.27906976744197px;"></div>
+    <script>
+        window.onload = function() {
+            var ballPosition = 0;
+            var repeat = 14;
+            var ball = document.querySelector('#ball');
+            var board = document.querySelector('#board');
+            var pop = document.querySelector('#pop');
+            var ret = document.querySelector('#ret');
+            var coords = {
+                x: 0,
+                y: 0
+            };
+            var ystep = 0;
+            var xstep = 0;
+            var cnt = 0;
+
+
+            function initial() {
+                ball.style.transform = 'translate(' + (window.innerWidth / 2 - 7) + 'px, ' + (board.clientHeight / 19 + 20) + 'px)';
+                ystep = board.clientHeight / 17.2;
+                xstep = board.clientWidth / 4.8;
+            }
+
+            initial();
+            window.onresize = initial;
+
+
+            function nextPosition() {
+                if (ballPosition == -2) return -1;
+                if (ballPosition == 2) return 1;
+                return ballPosition + (Math.random() > .5 ? 1 : -1);
+            }
+
+            function next() {
+                ball.style.display = 'block';
+                if (++cnt > repeat) {
+                    setTimeout(function() {
+                        pop.style.display = 'block';
+                    }, 1000);
+
+                    if (ballPosition > 0) {
+                        ret.innerHTML = '√';
+                    }
+                    if (ballPosition < 0) {
+                        ret.innerHTML = '×';
+                    }
+                    return;
+                }
+                var prev = ballPosition;
+                ballPosition = nextPosition();
+
+                if (prev > ballPosition) transformBall(1, next);
+                else transformBall(0, next);
+
+            }
+
+            function transformBall(isLeft, cb) {
+
+                var startX = coords.x;
+                var startY = coords.y;
+
+                var tweenA = new TWEEN.Tween(coords);
+                tweenA.to({
+                    y: startY + ystep
+                }, 100).onUpdate(update);
+
+                var tweenB = new TWEEN.Tween(coords);
+                tweenB.to({
+                        x: isLeft ? startX - xstep : startX + xstep
+                    }, 500)
+                    .easing(TWEEN.Easing.Quadratic.In)
+                    .onUpdate(update)
+                    .onComplete(cb);
+
+                var tweenC = new TWEEN.Tween(coords);
+                tweenC.to({
+                    y: startY + ystep
+                }, 100).onUpdate(update);
+                tweenA.chain(tweenB, tweenC).start();
+            }
+
+            function update() {
+                ball.style.left = this.x + 'px';
+                ball.style.top = this.y + 'px';
+            }
+
+            requestAnimationFrame(animate);
+
+            function animate(time) {
+                requestAnimationFrame(animate);
+                TWEEN.update(time);
+            }
+
+            setTimeout(function() {
+                next();
+            }, 1000);
+
+        };
+    </script>
+
+
+</body></html>
