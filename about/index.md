@@ -59,7 +59,9 @@ comments: yes
 
 **女票** － 这个算不算...
 
-[To be continued...](http://www.cap0dom.com/vitae/DecisionBoard.html)
+[To be continued...](http://www.cap0dom.com/vitae/)
+
+[Decision Board...](http://pangzongshuo.com/dicisionboard/index.html)
 
 <br/>
 
